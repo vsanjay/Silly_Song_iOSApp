@@ -74,11 +74,14 @@ func shortNameFromName( name : String) -> String {
     
     var count = 0
     
-    while(vowelString.contains(String(name[name.startIndex]))){
+    for char in name.characters{
+        
+        if(vowelString.contains(String(char))){
         
         count = count + 1
         
         }
+    }
     
     if(count == 0){
     return name
