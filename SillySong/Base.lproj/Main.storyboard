@@ -42,7 +42,7 @@
                                     <action selector="reset:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="WHj-Nk-ebT"/>
                                 </connections>
                             </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="YCs-i4-kVb">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="YCs-i4-kVb">
                                 <rect key="frame" x="16" y="306.5" width="288" height="241.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>

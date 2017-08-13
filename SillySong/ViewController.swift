@@ -20,19 +20,13 @@ class ViewController: UIViewController,UITextFieldDelegate {
         
         inputTextField.delegate = self
         
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
     }
 
     @IBAction func reset(_ sender: Any) {
         
         lyricsTextView.text = ""
         inputTextField.text = ""
-        
         
     }
     
@@ -42,11 +36,7 @@ class ViewController: UIViewController,UITextFieldDelegate {
         
         return false
         
-        
     }
-    
-    
-    
     
     @IBAction func displayLyrics(_ sender: Any) {
         
@@ -60,8 +50,6 @@ class ViewController: UIViewController,UITextFieldDelegate {
         
     }
     
-    
-
 }
 
 
