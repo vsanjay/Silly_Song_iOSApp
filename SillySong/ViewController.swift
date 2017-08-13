@@ -72,6 +72,20 @@ func shortNameFromName( name : String) -> String {
     
     let vowelString = "aeiou"
     
+    var count = 0
+    
+    while(vowelString.contains(String(name[name.startIndex]))){
+        
+        count = count + 1
+        
+        }
+    
+    if(count == 0){
+    return name
+    
+    }
+    
+    
     while(!vowelString.contains(String(name[name.startIndex]))){
         
         name.remove(at: name.startIndex)
